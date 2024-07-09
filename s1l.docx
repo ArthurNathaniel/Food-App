@@ -1,0 +1,7 @@
+CREATE TABLE food_items (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    food_name VARCHAR(255) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    discount INT(3) NOT NULL,
+    food_image VARCHAR(255) NOT NULL
+);
